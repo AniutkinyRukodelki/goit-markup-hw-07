@@ -1,0 +1,25 @@
+.about {
+  padding-bottom: 0;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.about-list {
+  display: flex;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-icons-box {
+  background-color: rgba(245, 244, 250, 1);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
